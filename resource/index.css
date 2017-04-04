@@ -1,0 +1,338 @@
+.shadow {
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+  -ms-box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+  -o-box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+.text_r {
+  text-align: right;
+  padding-right: 10px;
+}
+.index {
+  width: 100%;
+  position: relative;
+}
+.index .header {
+  width: 100%;
+  height: 90px;
+  background: #fff;
+  position: fixed;
+  top: 0px;
+  z-index: 9999;
+}
+.index .header .header-main {
+  width: 1003px;
+  margin: 0 auto;
+}
+.index .header .logo {
+  float: left;
+  padding-top: 14px;
+}
+.index .header .logo img {
+  height: 62px;
+}
+.index .header .nav {
+  float: right;
+  margin-right: 30px;
+}
+.index .header .nav li {
+  float: left;
+  padding-left: 60px;
+  position: relative;
+}
+.index .header .nav li a {
+  color: #723900;
+  font-size: 18px;
+  height: 90px;
+  line-height: 90px;
+}
+.index .header .nav li .phoneicon {
+  display: inline-block;
+  width: 19px;
+  height: 24px;
+  background: url(../../static/images/phone.png) no-repeat;
+  position: relative;
+  top: 5px;
+  margin-right: 10px;
+}
+.index .header .nav li.on a {
+  color: #f08700;
+}
+.index .banner img {
+  width: 100%;
+}
+.index .section .section-title {
+  text-align: center;
+  padding-top: 70px;
+}
+.index .section .section-main {
+  width: 1003px;
+  margin: 0 auto;
+}
+.index .section_1 {
+  padding-bottom: 100px;
+}
+.index .section_1 .square-content {
+  margin-left: 36px;
+  width: 1003px;
+  margin-top: 144px;
+  position: relative;
+}
+.index .section_1 .square-content .righttop {
+  position: absolute;
+  top: -103px;
+  right: 96px;
+}
+.index .section_1 .square-content .leftbottom {
+  position: absolute;
+  bottom: -104px;
+  left: 23px;
+}
+.index .section_1 .square-content li {
+  float: left;
+  width: 25%;
+  height: 178px;
+  font-family: "宋体";
+  font-style: italic;
+  cursor: pointer;
+  position: relative;
+}
+.index .section_1 .square-content .square {
+  width: 176px;
+  height: 176px;
+  border: 1px solid #723900;
+  transform: rotate(315deg);
+  -ms-transform: rotate(315deg);
+  /* Internet Explorer */
+  -moz-transform: rotate(315deg);
+  /* Firefox */
+  -webkit-transform: rotate(315deg);
+  /* Safari 和 Chrome */
+  -o-transform: rotate(315deg);
+  /* Opera */
+}
+.index .section_1 .square-content .frontface {
+  color: #fff;
+  line-height: 176px;
+  text-align: center;
+  font-size: 42px;
+}
+.index .section_1 .square-content .frontface .square {
+  background: #723900;
+}
+.index .section_1 .square-content .backface {
+  color: #723900;
+}
+.index .section_1 .square-content .backface .square {
+  background: #fff;
+}
+.index .section_1 .square-content .backface .content {
+  padding-left: 58px;
+  padding-top: 46px;
+  line-height: 26px;
+}
+.index .section_1 .square-content .backface .pa_46 {
+  padding-left: 46px;
+}
+.index .section_1 .square-content .list {
+  position: absolute;
+}
+.index .section_1 .square-content .content {
+  transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  /* Internet Explorer */
+  -moz-transform: rotate(45deg);
+  /* Firefox */
+  -webkit-transform: rotate(45deg);
+  /* Safari 和 Chrome */
+  -o-transform: rotate(45deg);
+  /* Opera */
+}
+.index .section_1 .txt-list {
+  font-family: "宋体";
+  font-style: italic;
+  font-size: 20px;
+  color: #723900;
+  margin-top: 198px;
+  line-height: 36px;
+  height: 109px;
+  width: 1003px;
+  overflow: hidden;
+}
+.index .section_1 .txt-list li {
+  height: 109px;
+  padding: 0 30px;
+}
+.index .section_2 {
+  background: #f2f2f2;
+  height: 954px;
+}
+.index .section_2 .section-main {
+  margin-top: 120px;
+}
+.index .section_2 .section_2_left {
+  width: 600px;
+  float: left;
+}
+.index .section_2 .section_2_left .title {
+  font-size: 25px;
+}
+.index .section_2 .section_2_left .title .txt {
+  padding: 5px;
+  background: #f08700;
+  color: #fff;
+  font-family: "宋体";
+}
+.index .section_2 .section_2_left .title h2 {
+  font-size: 48px;
+  color: #f08700;
+  padding: 70px 0 10px;
+}
+.index .section_2 .section_2_left .title p {
+  color: #434343;
+  font-size: 27px;
+  font-family: "宋体";
+}
+.index .section_2 .section_2_left .links {
+  margin-top: 80px;
+}
+.index .section_2 .section_2_left .links li {
+  float: left;
+  width: 238px;
+  cursor: pointer;
+  color: #723900;
+  font-size: 22px;
+  padding-bottom: 36px;
+  font-family: "宋体";
+}
+.index .section_2 .section_2_left .links .hover {
+  color: #999;
+}
+.index .section_2 .section_2_pic {
+  width: 372px;
+  height: 682px;
+  background: url(../../static/images/phone_bg.png) no-repeat center center;
+  background-size: 372px auto;
+  float: left;
+  position: relative;
+}
+.index .section_2 .section_2_pic li {
+  position: absolute;
+}
+.index .section_2 .section_2_pic li img {
+  width: 328px;
+  height: 580px;
+  margin-top: 95px;
+  margin-left: 20px;
+}
+.index .section_3 .links {
+  margin-top: 62px;
+  margin-bottom: 100px;
+  overflow: hidden;
+}
+.index .section_3 .links table {
+  position: relative;
+  left: -1px;
+  top: -1px;
+}
+.index .section_3 .links td {
+  width: 172px;
+  height: 148px;
+  text-align: center;
+  vertical-align: middle;
+  border-left: 1px solid #dedede;
+}
+.index .section_3 .links td img {
+  max-width: 172px;
+  max-height: 148px;
+  position: relative;
+  top: 5px;
+}
+.index .section_3 .links tr {
+  border-top: 1px solid #dedede;
+}
+.index .section_4 {
+  background: #c2380f url(../../static/images/red_bg.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}
+.index .section_4 .section-main {
+  width: 960px;
+  padding: 60px 0 56px;
+  font-size: 20px;
+  line-height: 30px;
+  color: #fff;
+}
+.index .section_4 .section-main p {
+  font-family: "宋体";
+  text-indent: 2em;
+  margin-bottom: 24px;
+}
+.index .section_4 .section-main h3 {
+  font-family: "宋体";
+  font-size: 21px;
+  margin: 43px 0;
+}
+.index .section_4 .section-main .txt-title {
+  font-family: "宋体";
+  font-size: 26px;
+}
+.index .section_4 .section-main .line {
+  font-family: Microsoft YaHei;
+  font-size: 15px;
+}
+.index .section_4 .section-main .name {
+  font-size: 18px;
+  padding-top: 10px;
+}
+.index .section_5 {
+  color: #666;
+  font-size: 18px;
+  padding-bottom: 140px;
+}
+.index .section_5 .section-main {
+  margin-top: 80px;
+  margin-bottom: 44px;
+}
+.index .section_5 h2 {
+  font-size: 26px;
+  text-align: center;
+  color: #010101;
+}
+.index .section_5 .section_5_main {
+  width: 960px;
+  margin: 0 auto;
+}
+.index .section_5 .qrcode {
+  float: left;
+  margin: 40px 0 0 224px;
+  padding-right: 80px;
+}
+.index .section_5 .qrcode p {
+  text-align: center;
+  font-size: 18px;
+}
+.index .section_5 .qrcode img {
+  width: 150px;
+}
+.index .section_5 .address {
+  float: left;
+  position: relative;
+  top: 32px;
+  height: 187px;
+  border-left: 1px solid #d1cece;
+  padding-left: 80px;
+  padding-top: 10px;
+}
+.index .section_5 .address p {
+  line-height: 56px;
+}
+.index .footer {
+  height: 58px;
+  width: 100%;
+  border-top: 1px solid #d1cece;
+  line-height: 58px;
+  text-align: center;
+  color: #666;
+  font-size: 16px;
+}
